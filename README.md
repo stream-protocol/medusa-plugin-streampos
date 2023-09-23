@@ -1,4 +1,4 @@
-![Stream**POS**](https://i.imgur.com/dtQdy5G.png))
+![Stream**POS**](https://i.imgur.com/dtQdy5G.png)
 
 # Project: Medusa Plugin StreamPOS™
 
