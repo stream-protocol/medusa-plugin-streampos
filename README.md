@@ -64,15 +64,9 @@ The Stream**POS** MedusaJS Plugin is a powerful tool designed to seamlessly inte
 
 ## Integrations <a name="integrations"></a>
 
-**Here are the key integrations with e-commerce platforms**:
+**Medusa commerce integration**:
 
-1. **MedusaJS Integration:** Stream**POS**™ can be integrated with MedusaJS, a popular e-commerce solution. This integration allows businesses using MedusaJS to extend their sales capabilities to physical retail stores. MedusaJS handles online sales, while Stream**POS**™ manages in-store transactions, providing a unified system for multi-channel retail.
-
-2. **Shopify Integration:** Shopify is a widely used e-commerce platform, and with StreamPOS Plugin, businesses using Shopify can easily integrate their online store with Stream**POS**™. This integration enables businesses to sync product catalogs, manage inventory, and provide consistent pricing and promotions across online and in-store sales channels.
-
-3. **WooCommerce (WordPress) Integration:** WooCommerce, a plugin for WordPress, powers a significant portion of online stores. StreamPOS Plugin can seamlessly integrate with WooCommerce, allowing businesses to leverage the full power of Stream**POS**™ for in-store sales while synchronizing product data, orders, and customer information with their WooCommerce-powered online store.
-
-4. **PrestaShop Integration:** PrestaShop is another popular e-commerce platform, especially in Europe. The Stream**POS** Plugin integration with PrestaShop enables businesses to combine their PrestaShop online store with StreamPOS™ for offline sales, creating a unified shopping experience for customers.
+Stream**POS**™ Plugin can be integrated with MedusaJS, a popular e-commerce solution. This integration allows businesses using Medusa to extend their sales capabilities to physical retail stores. MedusaJS handles online sales, while Stream**POS**™ manages in-store transactions, providing a unified system for multi-channel retail.
 
 ## Getting Started <a name="getting-started"></a>
 
