@@ -28,7 +28,7 @@ Security is a top priority for both StreamPOS™ and Medusa stores. The plugin c
 
 StreamID, a customer authentication system integrated into StreamPOS™ and StreamPay™, further enhances payment security. This multi-factor authentication system, which includes biometric verification methods, ensures that customer identities are secure, and transactions are protected from fraudulent activity. This reinforces trust between customers and retailers, enhancing the overall shopping experience.
 
-## How It Works?
+## How It Works
 
 - **Online Sales:** Medusa stores handle online sales through the Medusa e-commerce platform, allowing customers to browse and purchase products online.
 
@@ -40,95 +40,108 @@ StreamID, a customer authentication system integrated into StreamPOS™ and Stre
 
 - **StreamID Authentication:** StreamID enhances payment security by providing efficient and secure customer authentication methods, including biometric verification.
 
-## StreamPOS Widget components
+## StreamPOS Widget Components
 
 **Creating a StreamPOS MedusaJS Widget**
 
-Creating a StreamPOS MedusaJS Widget involves defining React components that can be embedded into the Medusa admin interface to provide specific functionality or display information related to StreamPOS. Examples of StreamPOS MedusaJS Widget components that you can use as a starting point for StreamPOS widget.
+Creating a StreamPOS MedusaJS Widget involves defining React components that can be embedded into the Medusa admin interface to provide specific functionality or display information related to StreamPOS. Below are examples of StreamPOS MedusaJS Widget components that you can use as a starting point:
 
-## StreamPOS Dashboard Widget:
+### StreamPOS Dashboard Widget
 
 This widget displays an overview of StreamPOS-related information on the Medusa dashboard.
+
+```jsx
 import React from 'react';
-´´´
+
 const StreamPOSDashboardWidget = () => {
   return (
     <div>
       <h2>StreamPOS Dashboard</h2>
-      {/*Add content to display StreamPOS information*/}
+      {/* Add content to display StreamPOS information */}
     </div>
   );
 };
 
 export default StreamPOSDashboardWidget;
-´´´
-## StreamPOS Product Widget:
+```
+
+### StreamPOS Product Widget
 
 This widget enhances the Medusa product list by adding StreamPOS-specific features.
+
+```jsx
 import React from 'react';
 
 const StreamPOSProductListWidget = () => {
   return (
     <div>
       <h2>StreamPOS Product List</h2>
-      {/*Add content to display Merchant StreamPOS list*/}
+      {/* Add content to display Merchant StreamPOS list */}
     </div>
   );
 };
 
 export default StreamPOSProductListWidget;
-´´´
-## StreamPOS System Details Widget:
+```
+
+### StreamPOS System Details Widget
 
 This widget provides additional information about StreamPOS orders on the order details page.
+
+```jsx
 import React from 'react';
 
 const StreamPOSOrderDetailsWidget = () => {
   return (
     <div>
       <h2>StreamPOS System Details</h2>
-      {/*Add content to display StreamPOS system details*/}
+      {/* Add content to display StreamPOS system details */}
     </div>
   );
 };
 
 export default StreamPOSOrderDetailsWidget;
-´´´
-# StreamPOS Configuration Widget:
+```
+
+### StreamPOS Configuration Widget
 
 This widget allows administrators to configure StreamPOS settings within the Medusa admin panel.
+
+```jsx
 import React from 'react';
 
 const StreamPOSConfigurationWidget = () => {
   return (
     <div>
       <h2>StreamPOS Configuration</h2>
-      {/*Add content for configuring StreamPOS*/}
+      {/* Add content for configuring StreamPOS */}
     </div>
   );
 };
 
 export default StreamPOSConfigurationWidget;
-´´´
-# StreamPOS Analytics Widget:
+```
+
+### StreamPOS Analytics Widget
 
 This widget provides analytics and reports related to StreamPOS transactions.
-´´´
+
+```jsx
 import React from 'react';
 
 const StreamPOSAnalyticsWidget = () => {
   return (
     <div>
       <h2>StreamPOS Analytics</h2>
-      {/*Add content to display StreamPOS analytics*/}
+      {/* Add content to display StreamPOS analytics */}
     </div>
   );
 };
 
-Export default StreamPOSAnalyticsWidget;
-´´´
+export default StreamPOSAnalyticsWidget;
+```
 
-These are simplified examples of StreamPOS MedusaJS Widget components. You can extend and customize these components to suit StreamPOS specific requirements, incorporating data fetching, event handling, and other functionality as needed. Remember to integrate these widgets into the appropriate Medusa admin zones to ensure they appear where you want them within the admin interface. 
+These are simplified examples of StreamPOS MedusaJS Widget components. You can extend and customize these components to suit StreamPOS-specific requirements, incorporating data fetching, event handling, and other functionality as needed. Remember to integrate these widgets into the appropriate Medusa admin zones to ensure they appear where you want them within the admin interface.
 
 The StreamPOS™ Point of Sale Plugin empowers businesses to create a seamless and efficient retail experience that spans both online and in-store channels. With real-time inventory management, secure payment processing, and robust security measures, this plugin ensures that merchants can thrive in the modern retail landscape by offering customers a convenient and secure shopping experience.
 
@@ -138,7 +151,7 @@ For detailed installation and usage instructions, please refer to the [documenta
 
 ## Contributing
 
-Welcome contributions from the community! If you'd like to contribute to the development of this plugin, please read our [Contributing Guidelines](CONTRIBUTING.md).
+We welcome contributions from the community! If you'd like to contribute to the development of this plugin, please read our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## License
 
